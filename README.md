@@ -2,6 +2,8 @@
 
 Web application dashboard for TAMU CSE Students, Student Bodies and Administrators
 
+> A Running Instance can be seen at [CSE-DashBoard](https://polar-harbor-52142.herokuapp.com/)
+
 To get started:
 
 0. [Setup a Cloud9
