@@ -83,3 +83,38 @@ $ heroku run rake db:seed
 ```
 
 Now you should be able to navigate to your app's URL.  `heroku open` opens your browser to that URL in case you forgot it, however this command does not work on c9, where you will need to navigate to the relevant URL.
+
+
+## Deployment to CSE Servers
+
+> Information is taken from the website: [CSE Web Pages](https://wiki.cse.tamu.edu/index.php/CSE_Web_Pages#Web_Project_Pages)
+
+The following page provides detailed instructions on how to deploy to CSE Project Web Server.
+
+Anyone with a CSE computer account has the ability to create a web site on the CSE project web server. Like your personal home page, the files for your site will be stored in your home directory on the departmental filer, and will count against your quota. The difference is that the project server allows dynamic dontent. You can activate this web site by creating a directory called web_project inside your home directory. Your home direcory must be world executable, so the web server can look through it, and the web_projectdirectory must be world readable and executable, and all files in it must be world readable:
+
+cd ~
+chmod o+x .
+mkdir web_project
+chmod 755 web_project
+cd web_project
+''...make files...''
+chmod 744 *
+chmod 755 *.pl
+
+Once you create the directory, any files you place there will be accessible online at the following URL: http://projects.cse.tamu.edu/username/
+
+This server has the following capabilities:
+
+PHP: PHP is provided as an Apache module.
+Perl: Perl scripts are executed using mod_perl.
+SSI/HTML: Server-side includes and standard HTML files are served on the Apache webserver.
+The following restrictions are placed on the project servers:
+
+CSG may impose limits on project activities which affect system performance and/or restrict excessive traffic. These limits may be imposed without prior notice if needed to ensure server integrity. Users expecting high loads should coordinate their requirements with CSG .
+Web server configurations are subject to change between semesters. While our goal is to provide stability throughout a semester, technology evolution means some changes should be expected. Security and other critical issues may mandate changes at any time. CSG will notify current users as soon as practical about changes.
+These servers will not be poked through TAMU's firewall, so users wanting to access their pages outside of the tamu.edu domain will either need to use VPN software, or use a different server.
+
+## Web hosting in TAMU Web Servers
+Refer this page for more information, although this is not free
+[Web Hosting and Mastering](http://it.tamu.edu/Websites_Applications_and_Software/Design_Development_and_Administration/Web_Hosting_and_Mastering/index.php)
