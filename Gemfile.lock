@@ -66,6 +66,7 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
+    codeclimate-test-reporter (1.0.0)
     coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -417,6 +418,7 @@ DEPENDENCIES
   byebug (= 9.0.6)
   capybara
   carrierwave (= 1.1.0)
+  codeclimate-test-reporter
   coffee-rails (= 4.2.2)
   cucumber
   cucumber-rails
@@ -450,4 +452,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.16.1
