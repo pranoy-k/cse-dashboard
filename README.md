@@ -23,9 +23,9 @@ directory.
 up a window showing the URL to visit in your browser to interact with
 the running app.
 
-The Documentation can be found [here](https://github.com/pranoy-k/cse-dashboard/tree/master/docs)
+> The Documentation can be found [here](https://github.com/pranoy-k/cse-dashboard/tree/master/docs)
 
-The Iterations Reports can be found [here](https://github.com/pranoy-k/cse-dashboard/tree/master/iterationReports)
+> The Iterations Reports can be found [here](https://github.com/pranoy-k/cse-dashboard/tree/master/iterationReports)
 ## Deployment to Heroku
 
 If you have deployed to Heroku before, just create a new app container with `heroku create`.  If this is your first time deploying to Heroku, you will need to do two things.  First, sign up for a free [Heroku account](http://heroku.com).  Then set up `ssh` keys to securely communicate with Heroku for app deployments.  The three basic commands you need are the following, but see the [Heroku page](https://devcenter.heroku.com/articles/heroku-cli) for more details.
